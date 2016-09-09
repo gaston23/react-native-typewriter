@@ -1,10 +1,10 @@
 'use strict'
 
-import React, {
-  Component,
+import React, { Component, PropTypes } from 'react'
+import {
   Text,
-  PropTypes
 } from 'react-native'
+
 
 const MAX_DELAY = 100
 const TYPING_VALS = [-1, 0, 1]
